@@ -269,9 +269,9 @@ def gene_finder(dna):
         print('Protein not found')
 
 
-gene_finder('data/X73525.fa')
 
 if __name__ == "__main__":
     import doctest
-    doctest.run_docstring_examples(gene_finder, globals(), verbose= True)
-    #doctest.testmod()
+    # doctest.run_docstring_examples(gene_finder, globals(), verbose= True)
+    doctest.testmod()
+    gene_finder('data/X73525.fa')
